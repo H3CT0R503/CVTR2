@@ -1,0 +1,5 @@
+C:/Users/inter/buenosi/.utmp/RelWithDebInfo/3i172f6j/arm64-v8a/CMakeFiles/edit_cache.dir
+C:/Users/inter/buenosi/.utmp/RelWithDebInfo/3i172f6j/arm64-v8a/CMakeFiles/rebuild_cache.dir
+C:/Users/inter/buenosi/.utmp/RelWithDebInfo/3i172f6j/arm64-v8a/GameActivity/CMakeFiles/game.dir
+C:/Users/inter/buenosi/.utmp/RelWithDebInfo/3i172f6j/arm64-v8a/GameActivity/CMakeFiles/edit_cache.dir
+C:/Users/inter/buenosi/.utmp/RelWithDebInfo/3i172f6j/arm64-v8a/GameActivity/CMakeFiles/rebuild_cache.dir
