@@ -69,6 +69,7 @@
     <Compile Include="Assets\CircuitoManager.cs" />
     <Compile Include="Assets\Mirza Beig\Cinematic Explosions FREE\Scripts\FPSDisplay.cs" />
     <Compile Include="Assets\CircuitoManage.cs" />
+    <Compile Include="Assets\DoorOpen\DoorTrigger.cs" />
     <Compile Include="Assets\Mirza Beig\Cinematic Explosions FREE\Scripts\CustomImpulse.cs" />
   </ItemGroup>
   <ItemGroup>
