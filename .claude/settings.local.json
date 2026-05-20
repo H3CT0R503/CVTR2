@@ -1,0 +1,17 @@
+{
+  "permissions": {
+    "allow": [
+      "mcp__coplay-mcp__get_unity_editor_state",
+      "mcp__coplay-mcp__get_unity_logs",
+      "mcp__coplay-mcp__list_files",
+      "PowerShell(Select-String -Path \"C:\\\\Users\\\\hp\\\\OneDrive\\\\Desktop\\\\CVTR2\\\\Assets\\\\Samples\\\\XR Interaction Toolkit\\\\3.2.2\\\\Starter Assets\\\\DemoScene.unity\" -Pattern \"m_Name:\" | Select-Object -First 80 | ForEach-Object { $_.Line.Trim\\(\\) })",
+      "PowerShell(Select-String -Path \"C:\\\\Users\\\\hp\\\\OneDrive\\\\Desktop\\\\CVTR2\\\\Assets\\\\Samples\\\\XR Interaction Toolkit\\\\3.2.2\\\\Starter Assets\\\\DemoScene.unity\" -Pattern \"m_Name:\" | Where-Object { $_.Line -match \"\\(XR|Controller|Simulator|Input Action|Origin|Locomotion|Hand\\)\" } | ForEach-Object { $_.Line.Trim\\(\\) } | Select-Object -Unique)",
+      "PowerShell(Select-String -Path \"C:\\\\Users\\\\hp\\\\OneDrive\\\\Desktop\\\\CVTR2\\\\Assets\\\\Samples\\\\XR Interaction Toolkit\\\\3.2.2\\\\Starter Assets\\\\DemoScene.unity\" -Pattern \"m_Name:|m_IsActive:|PrefabInstance\" | Select-Object -First 100 | ForEach-Object { $_.Line.Trim\\(\\) })",
+      "PowerShell(Select-String -Path \"C:\\\\Users\\\\hp\\\\OneDrive\\\\Desktop\\\\CVTR2\\\\Assets\\\\Samples\\\\XR Interaction Toolkit\\\\3.2.2\\\\Starter Assets\\\\DemoScene.unity\" -Pattern \"XR Origin|XROrigin|Device Simulator|XRI Default Input Actions|m_IsActive\" | Select-Object -First 50 | ForEach-Object { \"$\\($_.LineNumber\\): $\\($_.Line.Trim\\(\\)\\)\" })",
+      "PowerShell(Select-String -Path \"C:\\\\Users\\\\hp\\\\OneDrive\\\\Desktop\\\\CVTR2\\\\Assets\\\\Samples\\\\XR Interaction Toolkit\\\\3.2.2\\\\Starter Assets\\\\DemoScene.unity\" -Pattern \"sourcePrefab|PrefabInstance\" | Select-Object -First 30 | ForEach-Object { \"$\\($_.LineNumber\\): $\\($_.Line.Trim\\(\\)\\)\" })",
+      "PowerShell(Select-String -Path \"C:\\\\Users\\\\hp\\\\OneDrive\\\\Desktop\\\\CVTR2\\\\Assets\\\\Samples\\\\XR Interaction Toolkit\\\\3.2.2\\\\Starter Assets\\\\DemoScene.unity\" -Pattern \"m_SourcePrefab\" | ForEach-Object { \"$\\($_.LineNumber\\): $\\($_.Line.Trim\\(\\)\\)\" })",
+      "PowerShell(Select-String *)",
+      "PowerShell(Select-String -Path \"C:\\\\Users\\\\hp\\\\OneDrive\\\\Desktop\\\\CVTR2\\\\Assets\\\\Samples\\\\XR Interaction Toolkit\\\\3.2.2\\\\Starter Assets\\\\DemoScene.unity\" -Pattern \"XRGrabInteractable|m_InteractionLayers\" | ForEach-Object { \"$\\($_.LineNumber\\): $\\($_.Line.Trim\\(\\)\\)\" } | Select-Object -First 50)"
+    ]
+  }
+}
